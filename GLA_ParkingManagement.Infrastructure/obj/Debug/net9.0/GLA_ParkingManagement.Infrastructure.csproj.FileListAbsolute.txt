@@ -1,0 +1,17 @@
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\bin\Debug\net9.0\GLA_ParkingManagement.Infrastructure.deps.json
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\bin\Debug\net9.0\GLA_ParkingManagement.Infrastructure.runtimeconfig.json
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\bin\Debug\net9.0\GLA_ParkingManagement.Infrastructure.dll
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\bin\Debug\net9.0\GLA_ParkingManagement.Infrastructure.pdb
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\bin\Debug\net9.0\GLA_ParkingManagement.Domain.dll
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\bin\Debug\net9.0\GLA_ParkingManagement.Domain.pdb
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_ParkingManagement.Infrastructure.csproj.AssemblyReference.cache
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_ParkingManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_ParkingManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_ParkingManagement.Infrastructure.AssemblyInfo.cs
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_ParkingManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_Park.27D94EF4.Up2Date
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_ParkingManagement.Infrastructure.dll
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\refint\GLA_ParkingManagement.Infrastructure.dll
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_ParkingManagement.Infrastructure.pdb
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\GLA_ParkingManagement.Infrastructure.genruntimeconfig.cache
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Infrastructure\obj\Debug\net9.0\ref\GLA_ParkingManagement.Infrastructure.dll

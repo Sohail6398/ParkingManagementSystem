@@ -1,0 +1,14 @@
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\bin\Debug\net9.0\GLA_ParkingManagement.Application.deps.json
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\bin\Debug\net9.0\GLA_ParkingManagement.Application.runtimeconfig.json
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\bin\Debug\net9.0\GLA_ParkingManagement.Application.dll
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\bin\Debug\net9.0\GLA_ParkingManagement.Application.pdb
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\GLA_ParkingManagement.Application.csproj.AssemblyReference.cache
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\GLA_ParkingManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\GLA_ParkingManagement.Application.AssemblyInfoInputs.cache
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\GLA_ParkingManagement.Application.AssemblyInfo.cs
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\GLA_ParkingManagement.Application.csproj.CoreCompileInputs.cache
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\GLA_ParkingManagement.Application.dll
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\refint\GLA_ParkingManagement.Application.dll
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\GLA_ParkingManagement.Application.pdb
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\GLA_ParkingManagement.Application.genruntimeconfig.cache
+D:\Learning\MLDotNetTutorials\GLA_ParkingManagement\GLA_ParkingManagement.Application\obj\Debug\net9.0\ref\GLA_ParkingManagement.Application.dll

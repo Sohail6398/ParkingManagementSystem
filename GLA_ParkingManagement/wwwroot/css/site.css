@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO */
+
+.hero-section {
+    background: linear-gradient(to right, #0d6efd, #6610f2);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* PRODUCT CARD */
+
+.product-card {
+    transition: 0.3s;
+}
+
+    .product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+/* AUTH */
+
+.auth-bg {
+    background: linear-gradient(to right, #1d2671, #c33764);
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+/* Mobile */
+@media(max-width:768px) {
+    .hero-section {
+        height: 60vh;
+    }
+}
