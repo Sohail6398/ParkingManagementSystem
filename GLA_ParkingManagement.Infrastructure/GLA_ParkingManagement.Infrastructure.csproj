@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapper\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\GLA_ParkingManagement.Domain\GLA_ParkingManagement.Domain.csproj" />
   </ItemGroup>
 

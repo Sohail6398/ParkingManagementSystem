@@ -1,0 +1,262 @@
+﻿@model GLA_ParkingManagement.Domain.DTOs.RegisterUser
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Register - PMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/Theme/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Theme/assets/css/kaiadmin.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #0d6efd, #6610f2);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .register-card {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            background: #fff;
+            padding: 25px;
+        }
+
+        .form-control {
+            border-radius: 8px;
+        }
+
+        .btn-primary {
+            border-radius: 8px;
+            width: 100%;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="register-card">
+        <h3 class="title">Create Account</h3>
+
+        <form asp-controller="Account" asp-action="Register" method="post">
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <input asp-for="FirstName" class="form-control" placeholder="First Name" />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Email" class="form-control" placeholder="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Password" class="form-control" placeholder="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <input asp-for="ConfirmPassword" id="confirmPassword" class="form-control" placeholder="Confirm Password" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                <small id="passwordMatchMsg"></small>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <select asp-for="Gender" class="form-control">
+                        <option value="">Select Gender</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Other</option>
+                    </select>
+                    <span asp-validation-for="Gender" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <input asp-for="PhoneNumber" class="form-control" placeholder="Phone Number" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="DateOfBirth" type="date" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <textarea asp-for="Address" class="form-control" placeholder="Address"></textarea>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Register</button>
+
+        </form>
+
+        <div class="text-center mt-3">
+            <a href="/Account/Login">Already have an account?</a>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="~/Theme/assets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/Theme/assets/js/core/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <!-- Validation -->
+    <partial name="_ValidationScriptsPartial" />
+
+    <!-- Toast Messages -->
+    <script>
+        $(document).ready(function () {
+
+            toastr.options = {
+                "closeButton": true,
+                "progressBar": true,
+                "positionClass": "toast-top-right"
+            };
+
+            var success = '@TempData["success"]';
+            var error = '@TempData["error"]';
+
+            if (success) {
+                toastr.success(success);
+            }
+
+            if (error) {
+                toastr.error(error);
+            }
+
+            $("#Password, #confirmPassword").on("keyup", function () {
+                validatePasswordMatch();
+            });
+
+            // Prevent submit if mismatch
+            $("form").on("submit", function (e) {
+                if (!validateForm()) {
+                    e.preventDefault();
+                    toastr.error("Please fix the errors before submitting");
+                }
+            });
+            $("input, select, textarea").on("keyup change", function () {
+                validateForm();
+            });
+                
+        });
+
+     function validateForm() {
+
+        let isValid = true;
+
+        // Get values
+        let firstName = $("#FirstName").val().trim();
+        let email = $("#Email").val().trim();
+        let password = $("#Password").val();
+        let confirmPassword = $("#confirmPassword").val();
+        let phone = $("#PhoneNumber").val().trim();
+        let gender = $("#Gender").val();
+        let dob = $("#DateOfBirth").val();
+        let address = $("#Address").val().trim();
+
+        // Clear previous messages
+        $(".text-danger").text("");
+        $("#passwordMatchMsg").text("");
+
+        // First Name
+        if (firstName === "") {
+            $("#FirstName").next(".text-danger").text("First name is required");
+            isValid = false;
+        }
+
+        // Email
+               let emailRegex = /^[^\s@@]+@@[^\s@@]+\.[^\s@@]+$/;
+        if (email === "") {
+            $("#Email").next(".text-danger").text("Email is required");
+            isValid = false;
+        } else if (!emailRegex.test(email)) {
+            $("#Email").next(".text-danger").text("Invalid email format");
+            isValid = false;
+        }
+
+        // Password (same as backend regex)
+        let passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
+
+        if (password === "") {
+            $("#Password").next(".text-danger").text("Password is required");
+            isValid = false;
+        } else if (!passwordRegex.test(password)) {
+            $("#Password").next(".text-danger")
+                .text("Min 8 chars, 1 uppercase, 1 number, 1 special char");
+            isValid = false;
+        }
+
+        // Confirm Password
+        if (confirmPassword === "") {
+            $("#confirmPassword").next(".text-danger").text("Confirm password required");
+            isValid = false;
+        } else if (password !== confirmPassword) {
+            $("#passwordMatchMsg")
+                .text("Passwords do not match")
+                .css("color", "red");
+            isValid = false;
+        } else {
+            $("#passwordMatchMsg")
+                .text("Passwords match")
+                .css("color", "green");
+        }
+
+        // Phone
+        let phoneRegex = /^[0-9]{10}$/;
+        if (phone === "") {
+            $("#PhoneNumber").next(".text-danger").text("Phone number required");
+            isValid = false;
+        } else if (!phoneRegex.test(phone)) {
+            $("#PhoneNumber").next(".text-danger").text("Enter valid 10-digit number");
+            isValid = false;
+        }
+
+        // Gender
+        if (!gender) {
+            $("#Gender").next(".text-danger").text("Select gender");
+            isValid = false;
+        }
+
+        // DOB
+        if (!dob) {
+            $("#DateOfBirth").next(".text-danger").text("Date of birth required");
+            isValid = false;
+        }
+
+        // Address
+        if (address === "") {
+            $("#Address").next(".text-danger").text("Address required");
+            isValid = false;
+        }
+
+        return isValid;
+    }
+    </script>
+
+</body>
+</html>

@@ -74,32 +74,6 @@ namespace GLA_ParkingManagement.Infrastructure.Database
                 }
             );
 
-            //builder.Entity<AppUser>().HasData(new
-            //AppUser
-            //{
-            //    Id = adminUserId,
-            //    UserName = "admin@parking.com",
-            //    NormalizedUserName = "ADMIN@PARKING.COM",
-            //    Email = "admin@gmail.com",
-            //    NormalizedEmail = "ADMIN@PARKING.COM",
-            //    EmailConfirmed = true,
-            //    FirstName = "Zishan",
-            //    LastName = "Qureshi",
-            //    Gender = GenderType.Male,
-            //    PasswordHash = "Admin@123",
-            //    SecurityStamp = "d3b07384-d9a1-4c3b-9c2e-123456789abc",
-            //    ConcurrencyStamp = "a7f5f354-8b2a-4c6d-9f3a-abcdef123456"
-            //});
-
-            //// 🔗 Assign Admin Role to Admin User
-            //builder.Entity<IdentityUserRole<string>>().HasData(
-            //    new IdentityUserRole<string>
-            //    {
-            //        UserId = adminUserId,
-            //        RoleId = adminRoleId
-            //    }
-            //);
-
             builder.Entity<VehicleType>()
                 .Property(v => v.HourlyRate)
                 .HasPrecision(10, 2);

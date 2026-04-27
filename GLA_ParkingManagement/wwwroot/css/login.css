@@ -1,0 +1,63 @@
+﻿body {
+    /* Smooth deep blue to purple gradient */
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border: none;
+}
+
+.side-image {
+    background-image: url('https://unsplash.com');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.form-container {
+    padding: 3rem;
+}
+
+.btn-login {
+    background: #2a5298;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+    .btn-login:hover {
+        background: #1e3c72;
+        transform: translateY(-2px);
+    }
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #dee2e6;
+}
+
+    .form-control:focus {
+        box-shadow: 0 0 0 0.25rem rgba(42, 82, 152, 0.25);
+        border-color: #2a5298;
+    }
+
+/*.side-image {*/
+    /* High-quality parking lot image */
+    /*background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('~/Images/car-image.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}*/

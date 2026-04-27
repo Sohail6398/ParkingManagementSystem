@@ -1,43 +1,169 @@
+/* ============================= */
+/* GLOBAL LAYOUT FIX */
+/* ============================= */
+
 body {
-    font-family: 'Segoe UI', sans-serif;
+    background-color: #e9ecef;
 }
 
-/* HERO */
+/* ============================= */
+/* MAIN HEADER (NAVBAR) */
+/* ============================= */
 
-.hero-section {
-    background: linear-gradient(to right, #0d6efd, #6610f2);
-    height: 70vh;
+
+.main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    min-height: 60px;
+    padding: 0 20px;
+}
+
+/* ============================= */
+/* CONTENT AREA */
+/* ============================= */
+
+.content {
+    padding: 20px 25px;
+    background-color: #e9ecef;
+    min-height: 100vh;
+}
+
+.page-inner {
+    background-color: #f4f6f9;
+    padding: 20px;
+    border-radius: 8px;
+    height:75px;
+}
+
+/* ============================= */
+/* DASHBOARD HEADER */
+/* ============================= */
+
+.page-header-custom {
     display: flex;
     align-items: center;
-    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
-/* PRODUCT CARD */
-
-.product-card {
-    transition: 0.3s;
-}
-
-    .product-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    .page-header-custom .bar {
+        width: 6px;
+        height: 36px;
+        background: #0d6efd;
+        margin-right: 12px;
+        border-radius: 4px;
+        /* Subtle glow */
+        box-shadow: 0 0 6px rgba(13, 110, 253, 0.6);
     }
 
-/* AUTH */
-
-.auth-bg {
-    background: linear-gradient(to right, #1d2671, #c33764);
-}
-
-.auth-card {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 15px;
-}
-
-/* Mobile */
-@media(max-width:768px) {
-    .hero-section {
-        height: 60vh;
+    .page-header-custom .page-title {
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0;
+        color: #333;
     }
+
+/* ============================= */
+/* SIDEBAR */
+/* ============================= */
+
+.sidebar {
+    top: 60px; /* push below navbar */
+    height: calc(100vh - 60px);
+    position: fixed;
+}
+
+    /* Menu text */
+    .sidebar .nav > li > a {
+        font-size: 16px;
+        padding: 12px 15px;
+        color: #cbd5e1;
+        transition: all 0.3s ease;
+    }
+
+        /* Icons */
+        .sidebar .nav > li > a i {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+        /* Hover effect */
+        .sidebar .nav > li > a:hover {
+            background: rgba(13, 110, 253, 0.15);
+            color: #ffffff;
+        }
+
+    /* Active menu */
+    .sidebar .nav > li.active > a {
+        background: rgba(13, 110, 253, 0.2);
+        color: #ffffff;
+        border-left: 4px solid #0d6efd;
+    }
+
+/* ============================= */
+/* PROFILE (TOP RIGHT) */
+/* ============================= */
+
+.navbar .rounded-circle {
+    object-fit: cover;
+}
+
+.navbar .fw-bold {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* ============================= */
+/* DROPDOWN */
+/* ============================= */
+
+.dropdown-menu {
+    border-radius: 8px;
+    padding: 8px 0;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+    .dropdown-item:hover {
+        background-color: #f1f5f9;
+    }
+
+/* ============================= */
+/* SMALL UI IMPROVEMENTS */
+/* ============================= */
+
+.fa-bell {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.logo-header {
+    padding: 15px;
+}
+
+/* ============================= */
+/* RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 768px) {
+    .page-header-custom .page-title {
+        font-size: 22px;
+    }
+
+    .sidebar .nav > li > a {
+        font-size: 14px;
+    }
+}
+
+.main-panel {
+    margin-top: 60px; /* match navbar height */
 }

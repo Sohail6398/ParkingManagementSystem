@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GLA_ParkingManagement.Application\GLA_ParkingManagement.Application.csproj" />
     <ProjectReference Include="..\GLA_ParkingManagement.Infrastructure\GLA_ParkingManagement.Infrastructure.csproj" />
   </ItemGroup>
 

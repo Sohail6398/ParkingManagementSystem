@@ -10,5 +10,6 @@ namespace GLA_ParkingManagement.Application.Interfaces
     public interface IAuthService
     {
         Task<ServiceResponse<LoginResponse>> LoginAsync(LoginRequest loginRequest);
+        Task<ServiceResponse<string>> RegisterUserAsync(RegisterUser request);
     }
 }

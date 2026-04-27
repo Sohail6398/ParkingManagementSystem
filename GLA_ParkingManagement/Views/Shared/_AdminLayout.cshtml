@@ -1,0 +1,148 @@
+﻿@using GLA_ParkingManagement.Infrastructure.Utilities
+@{
+	var userName = User.FindFirst(CommonProperties.FullName)?.Value;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>@ViewData["Title"] - PMS</title>
+	<meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
+	<link rel="icon" href="~/Theme/assets/img/kaiadmin/favicon.ico" type="image/x-icon" />
+	<link href="~/css/site.css" rel="stylesheet" />
+	<link rel="stylesheet" href="~/Theme/assets/css/fonts.min.css" />
+	<script src="~/Theme/assets/js/plugin/webfont/webfont.min.js"></script>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="~/Theme/assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/Theme/assets/css/plugins.min.css" />
+	<link rel="stylesheet" href="~/Theme/assets/css/kaiadmin.min.css" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<!-- Sidebar -->
+		<div class="sidebar" data-background-color="dark">
+
+			<!-- Logo -->
+			<div class="sidebar-logo">
+				<div class="logo-header" data-background-color="blue">
+					<a href="/" class="logo">
+						<img src="~/Theme/assets/img/kaiadmin/logo_light.svg" height="20" />
+					</a>
+				</div>
+			</div>
+
+			<!-- Sidebar Menu -->
+			<div class="sidebar-wrapper scrollbar scrollbar-inner">
+				<div class="sidebar-content">
+
+					<ul class="nav nav-secondary">
+
+						<!-- Dashboard -->
+						<li class="nav-item active">
+							<a href="/Home/Index">
+								<i class="fas fa-home"></i>
+								<p>Dashboard</p>
+							</a>
+						</li>
+
+						<!-- Example Menu -->
+						<li class="nav-item">
+							<a href="/Reports/Index">
+								<i class="fas fa-chart-bar"></i>
+								<p>Reports</p>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="/Users/Index">
+								<i class="fas fa-users"></i>
+								<p>Users</p>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a href="/Settings/Index">
+								<i class="fas fa-cog"></i>
+								<p>Settings</p>
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+			</div>
+
+		</div>
+		<!-- End Sidebar -->
+
+		<div class="main-panel">
+
+			<!-- Header -->
+			<div class="main-header">
+				<nav class="navbar navbar-header navbar-header-transparent navbar-expand-lg border-bottom" data-background-color="blue">
+					<div class="container-fluid">
+
+						@* <input type="text" class="form-control w-25" placeholder="Search..." /> *@
+
+						<ul class="navbar-nav ms-auto">
+
+							<li class="nav-item">
+								<a class="nav-link"><i class="fa fa-bell"></i></a>
+							</li>
+
+							<!-- Profile Dropdown -->
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle d-flex align-items-center"
+								   href="#"
+								   role="button"
+								   data-bs-toggle="dropdown"
+								   aria-expanded="false">
+
+									<!-- User Image -->
+									<img src="~/Theme/assets/img/profile.jpg"
+										 alt="User"
+										 class="rounded-circle me-2"
+										 width="35"
+										 height="35" />
+
+									<span class="fw-bold">
+										@(userName ?? "Guest")
+									</span>
+								</a>
+
+								<!-- Dropdown Menu -->
+								<ul class="dropdown-menu dropdown-menu-end">
+									<li>
+										<a class="dropdown-item" href="#">
+											<i class="fa fa-user me-2"></i> Profile
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">
+											<i class="fa fa-sign-out-alt me-2"></i> Logout
+										</a>
+									</li>
+								</ul>
+							</li>
+
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!-- End Header -->
+			<!-- Page Content -->
+			<div class="content">
+				@RenderBody()
+			</div>
+
+		</div>
+	</div>
+
+	<!-- JS -->
+	<script src="~/Theme/assets/js/core/jquery-3.7.1.min.js"></script>
+	<script src="~/Theme/assets/js/core/popper.min.js"></script>
+	<script src="~/Theme/assets/js/core/bootstrap.min.js"></script>
+</body>
+</html>
