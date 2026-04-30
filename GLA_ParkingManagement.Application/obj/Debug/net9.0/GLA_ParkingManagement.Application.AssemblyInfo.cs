@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GLA_ParkingManagement.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d5d64d305d36c164653f4770cf8dc3c57f61ae3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f46f8c7a3decafb9341915eeb3c7cf4b947bb79c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GLA_ParkingManagement.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GLA_ParkingManagement.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

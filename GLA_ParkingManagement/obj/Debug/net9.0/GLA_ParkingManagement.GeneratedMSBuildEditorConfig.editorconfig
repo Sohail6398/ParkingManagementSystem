@@ -52,6 +52,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Sohail_Projects/ParkingManagement/GLA_ParkingManagement/GLA_ParkingManagement/Views/Parking/AllParkingRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xBbGxQYXJraW5nUmVjb3Jkcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sohail_Projects/ParkingManagement/GLA_ParkingManagement/GLA_ParkingManagement/Views/Parking/BookingHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xCb29raW5nSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sohail_Projects/ParkingManagement/GLA_ParkingManagement/GLA_ParkingManagement/Views/Parking/CheckParkingSlots.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xDaGVja1BhcmtpbmdTbG90cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sohail_Projects/ParkingManagement/GLA_ParkingManagement/GLA_ParkingManagement/Views/Parking/PandingParkings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xQYW5kaW5nUGFya2luZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Sohail_Projects/ParkingManagement/GLA_ParkingManagement/GLA_ParkingManagement/Views/Parking/Slots.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xTbG90cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

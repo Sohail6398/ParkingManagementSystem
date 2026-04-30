@@ -1,3 +1,4 @@
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\js\parkingRecords.js
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\img\undraw\undraw_tabs_jf82.svg
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\js\setting-demo2.js
@@ -36,7 +37,9 @@ D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\js\plugin\owl-carousel\owl.carousel.min.js
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\js\plugin\jquery-scrollbar\jquery.scrollbar.min.js
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\css\plugins.css
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\js\pendingApproval.js
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\img\kaiadmin\icon.svg
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\js\bookingHistory.js
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\img\kaiadmin\logo_light.svg
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\lib\jquery-validation\dist\additional-methods.js
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\fonts\simple-line-icons\Simple-Line-Icons.svg
@@ -111,6 +114,7 @@ D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\img\undraw\undraw_empty_xct9.svg
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\js\plugin\jsvectormap\jsvectormap.min.js
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\js\plugin\bootstrap-notify\bootstrap-notify.min.js
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\js\checkParkingSlots.js
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\Theme\assets\img\undraw\undraw_upgrade_06a0.svg
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
@@ -142,7 +146,11 @@ wwwroot\css\login.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\car-image.jpg
+wwwroot\js\bookingHistory.js
+wwwroot\js\checkParkingSlots.js
 wwwroot\js\ParkingManage.js
+wwwroot\js\parkingRecords.js
+wwwroot\js\pendingApproval.js
 wwwroot\js\site.js
 wwwroot\js\Slot.js
 wwwroot\js\Users.js

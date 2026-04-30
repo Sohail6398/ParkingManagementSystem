@@ -177,5 +177,10 @@ namespace GLA_ParkingManagement.Application.Services
 
             return response;
         }
+
+        public async Task LogoutAsync()
+        {
+            await _signInManager.SignOutAsync();
+        }
     }
 }

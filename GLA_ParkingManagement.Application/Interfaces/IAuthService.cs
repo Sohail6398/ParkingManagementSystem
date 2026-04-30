@@ -12,5 +12,6 @@ namespace GLA_ParkingManagement.Application.Interfaces
         Task<ServiceResponse<LoginResponse>> LoginAsync(LoginRequest loginRequest);
         Task<ServiceResponse<string>> RegisterUserAsync(RegisterUser request);
         Task<ServiceResponse<List<UserDTO>>> GetAllUsers();
+        Task LogoutAsync();
     }
 }

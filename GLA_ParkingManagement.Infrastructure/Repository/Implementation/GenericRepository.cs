@@ -20,14 +20,16 @@ namespace GLA_ParkingManagement.Infrastructure.Repository.Implementation
             this._context = context;
             this._dbSet = context.Set<T>();
         }
-        public async Task<IEnumerable<T>> GetAllAsync(Func<IQueryable<T>, IQueryable<T>>? include = null)
+        public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, Func<IQueryable<T>, IQueryable<T>>? include = null)
         {
             IQueryable<T> query = _dbSet;
 
+            if (filter != null)
+                query = query.Where(filter);
+
             if (include != null)
-            {
-                query = include(query); 
-            }
+                query = include(query);
+
             return await query.ToListAsync();
         }
 

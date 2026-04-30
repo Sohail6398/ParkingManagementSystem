@@ -9,7 +9,8 @@ namespace GLA_ParkingManagement.Domain.Enums
     public enum ParkingStatus
     {
         Pending = 1,
-        Confirmed=2,
-        Completed = 3,
+        Confirmed = 2,
+        Rejected = 3, 
+        Completed = 4
     }
 }

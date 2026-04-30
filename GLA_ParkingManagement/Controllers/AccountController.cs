@@ -71,5 +71,16 @@ namespace GLA_ParkingManagement.Controllers
                 _ => RedirectToAction("Index", "Home")
             };
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Logout()
+        {
+            await _authService.LogoutAsync();
+            HttpContext.Session.Clear();
+            await HttpContext.SignOutAsync();
+            TempData["successMessage"] = "Logged out successfully";
+
+            return RedirectToAction("Login", "Account");
+        }
     }
 }

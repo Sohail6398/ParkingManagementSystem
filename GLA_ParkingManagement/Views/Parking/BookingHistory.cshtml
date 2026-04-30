@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Booking History";
+}
+
+<div class="container mt-4">
+
+    <div class="page-header-custom mb-4">
+        <span class="bar"></span>
+        <h2 class="page-title">My Booking History</h2>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+
+            <div class="table-responsive">
+                <table id="historyTable" class="table table-bordered table-hover">
+
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Vehicle</th>
+                            <th>Type</th>
+                            <th>Slot</th>
+                            <th>Entry</th>
+                            <th>Exit</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+
+                    <tbody></tbody>
+
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="~/js/bookingHistory.js"></script>
+}

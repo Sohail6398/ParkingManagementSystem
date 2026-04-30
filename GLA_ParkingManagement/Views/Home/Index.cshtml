@@ -1,8 +1,57 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- HERO SECTION -->
+<div id="parkingCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="hero-slide slide1">
+                <div class="overlay">
+                    <h1>Smart Parking System</h1>
+                    <p>Find, Book & Park with ease</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="hero-slide slide2">
+                <div class="overlay">
+                    <h1>Real-Time Slot Availability</h1>
+                    <p>No more searching for parking</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+            <div class="hero-slide slide3">
+                <div class="overlay">
+                    <h1>Fast & Secure Booking</h1>
+                    <p>Your parking, your control</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#parkingCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#parkingCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+
+</div>
+
+<!-- OPTIONAL INFO SECTION -->
+<div class="container text-center mt-5">
+    <h2 class="fw-bold">Welcome to Smart Parking</h2>
+    <p class="text-muted">A modern solution to manage parking efficiently and effortlessly.</p>
 </div>

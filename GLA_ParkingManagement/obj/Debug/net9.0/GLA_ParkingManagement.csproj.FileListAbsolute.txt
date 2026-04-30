@@ -411,7 +411,6 @@ D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\scopedcss\bundle\GLA_ParkingManagement.styles.css
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\scopedcss\projectbundle\GLA_ParkingManagement.bundle.scp.css
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\nxc2vhpfd1-h1vt975u82.gz
-D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\l6w7e7ju8t-d1as5noqoq.gz
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\iotucj58u7-61n19gt1b8.gz
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\vtb59f2jfr-xtxxf3hu2r.gz
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\6y8aq56k5n-bqjiyaj88i.gz
@@ -563,3 +562,8 @@ D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\zxn6wv4yx5-ynrqcxvrpv.gz
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\a26n9o5h14-ewcmjg69yk.gz
 D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\egam9lip08-wb823cyqj2.gz
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\twjsg28sio-l5v2s5d4tw.gz
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\dmtz2xttan-hvm9agx3bm.gz
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\l6w7e7ju8t-u5un0clclk.gz
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\d0sx8hobnk-iepkbvfr79.gz
+D:\Sohail_Projects\ParkingManagement\GLA_ParkingManagement\GLA_ParkingManagement\obj\Debug\net9.0\compressed\0eyn5evnvb-0xz9cfo7r7.gz

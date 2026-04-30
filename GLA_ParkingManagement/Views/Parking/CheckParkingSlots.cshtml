@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Check Parking Slots";
+}
+<style>
+        .card {
+        border-radius: 10px;
+    }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+    .bg-success {
+        background-color: #28a745 !important;
+    }
+
+    .bg-danger {
+        background-color: #dc3545 !important;
+    }
+</style>
+<div class="container mt-4">
+
+    <!-- Header -->
+    <div class="page-header-custom mb-4">
+        <span class="bar"></span>
+        <h2 class="page-title">Check Available Parking Slots</h2>
+    </div>
+
+    <!-- Vehicle Types -->
+    <div class="row" id="vehicleTypeContainer">
+        <!-- Filled by JS -->
+    </div>
+
+    <!-- Slots Section -->
+    <div class="mt-5">
+        <h4 id="selectedVehicleTitle"></h4>
+
+        <div class="row" id="slotsContainer">
+            <!-- Slots will load here -->
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" id="bookingModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">Book Parking</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+                <input type="hidden" id="slotId" />
+                <input type="hidden" id="vehicleTypeId" />
+
+                <div class="mb-3">
+                    <label>Vehicle Number</label>
+                    <input type="text" id="vehicleNumber" class="form-control" placeholder="Enter vehicle number" />
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-success" onclick="bookParking()">Confirm Booking</button>
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/checkParkingSlots.js"></script>
+}

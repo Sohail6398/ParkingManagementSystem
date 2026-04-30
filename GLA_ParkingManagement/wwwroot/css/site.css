@@ -167,3 +167,76 @@ body {
 .main-panel {
     margin-top: 60px; /* match navbar height */
 }
+
+
+/* slot css*/
+
+/* slot css end*/
+
+.badge {
+    font-size: 13px;
+    padding: 6px 10px;
+}
+
+/* HERO SLIDER */
+.hero-slide {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+    .overlay h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .overlay p {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+/* Background Images */
+.slide1 {
+    background-image: url('/images/gla-image.jpg');
+}
+
+.slide2 {
+    background-image: url('/images/parking1.png');
+}
+
+.slide3 {
+    background-image: url('/images/car-image.jpg');
+}
+
+/* Dark overlay effect */
+.hero-slide::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .overlay {
+        left: 5%;
+    }
+
+        .overlay h1 {
+            font-size: 28px;
+        }
+
+        .overlay p {
+            font-size: 16px;
+        }
+}

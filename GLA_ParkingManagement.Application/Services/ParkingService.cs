@@ -204,30 +204,60 @@ namespace GLA_ParkingManagement.Application.Services
         /// <exception cref="NotImplementedException"></exception>
         public async Task<List<ParkingSlotDTO>> GetAvailableSlots(int vehicleTypeId)
         {
-            var slots = await _unitOfWork.GetRepository<ParkingSlot>()
-            .FindAsync(x => x.VehicleTypeId == vehicleTypeId && !x.IsOccupied);
+            var slots = await _unitOfWork
+            .GetRepository<ParkingSlot>()
+            .GetAllAsync(
+                x => x.VehicleTypeId == vehicleTypeId,
+                include: q => q.Include(s => s.VehicleType)
+            );
             return slots.Select(s => new ParkingSlotDTO
             {
                 Id = s.Id,
                 SlotNumber = s.SlotNumber,
+                VehicleTypeId = s.VehicleTypeId,
+                VehicleTypeName = s.VehicleType != null ? s.VehicleType.Name : "",
                 IsOccupied = s.IsOccupied
             }).ToList();
         }
 
-        public async Task<List<ParkingHistoryDTO>> GetUserParkingHistory(string userId)
+        public async Task<ServiceResponse<List<ParkingHistoryDTO>>> GetUserParkingHistory(string userId)
         {
-            var records = await _unitOfWork.GetRepository<ParkingRecord>()
-            .FindAsync(x => x.UserId == userId);
+            var response = new ServiceResponse<List<ParkingHistoryDTO>>();
 
-            return records.Select(r => new ParkingHistoryDTO
+            try
             {
-                VehicleNumber = r.VehicleNumber,
-                SlotNumber = r.Slot.SlotNumber,
-                EntryTime = r.EntryTime,
-                ExitTime = r.ExitTime,
-                TotalAmount = r.TotalAmount,
-                Status = r.Status.ToString()
-            }).ToList();
+                var records = await _unitOfWork.GetRepository<ParkingRecord>()
+                    .GetAllAsync(
+                        x => x.UserId == userId,
+                        include: q => q
+                            .Include(r => r.Slot)
+                            .Include(r => r.VehicleType)
+                    );
+
+                var result = records
+                    .OrderByDescending(x => x.EntryTime)
+                    .Select(r => new ParkingHistoryDTO
+                    {
+                        Id = r.Id,
+                        VehicleNumber = r.VehicleNumber,
+                        VehicleType = r.VehicleType.Name,
+                        SlotNumber = r.Slot.SlotNumber,
+                        EntryTime = r.EntryTime,
+                        ExitTime = r.ExitTime,
+                        TotalAmount = r.TotalAmount,
+                        Status = r.Status.ToString()
+                    }).ToList();
+
+                response.Success = true;
+                response.Data = result;
+            }
+            catch (Exception)
+            {
+                response.Success = false;
+                response.Message = "Failed to fetch history";
+            }
+
+            return response;
         }
 
         public async Task<List<VehicleTypeDTO>> GetVehicleTypes()
@@ -251,7 +281,7 @@ namespace GLA_ParkingManagement.Application.Services
             var response = new ServiceResponse<string>();
             var vehicleRepo = _unitOfWork.GetRepository<VehicleType>();
             var vehicleType = await vehicleRepo.GetByIdAsync(request.Id);
-            if(vehicleType == null)
+            if (vehicleType == null)
             {
                 response.StatusCode = 404;
                 response.Success = false;
@@ -271,9 +301,12 @@ namespace GLA_ParkingManagement.Application.Services
         public async Task<List<PendingParkingDTO>> GetPendingRequests()
         {
             var records = await _unitOfWork.GetRepository<ParkingRecord>()
-                .GetAllAsync( x => x
-                    .Include(r => r.Slot)
-                    .Include(r => r.VehicleType));
+                                .GetAllAsync(
+                                    x => x.Status == ParkingStatus.Pending, //  filter FIRST
+                                    include: q => q
+                                        .Include(r => r.Slot)
+                                        .Include(r => r.VehicleType)
+                                );
 
             return records
                 .Where(x => x.Status == ParkingStatus.Pending)
@@ -284,7 +317,7 @@ namespace GLA_ParkingManagement.Application.Services
                     VehicleType = r.VehicleType.Name,
                     SlotNumber = r.Slot.SlotNumber,
                     EntryTime = r.EntryTime,
-                    UserName = r.UserId 
+                    UserName = r.UserId
                 }).ToList();
         }
 
@@ -377,13 +410,90 @@ namespace GLA_ParkingManagement.Application.Services
                 Id = s.Id,
                 SlotNumber = s.SlotNumber,
                 VehicleTypeId = s.VehicleTypeId,
-                VehicleTypeName = s.VehicleType.Name, 
+                VehicleTypeName = s.VehicleType.Name,
                 IsOccupied = s.IsOccupied
             }).ToList();
             response.Success = true;
             response.Message = string.Empty;
             response.StatusCode = 200;
             response.Data = result;
+            return response;
+        }
+
+        public async Task<ServiceResponse<string>> ApproveParking(int id)
+        {
+            var response = new ServiceResponse<string>();
+
+            var record = await _unitOfWork.GetRepository<ParkingRecord>()
+                .GetByIdAsync(id);
+
+            if (record == null)
+            {
+                response.Success = false;
+                response.Message = "Record not found";
+                return response;
+            }
+
+            if (record.Status != ParkingStatus.Pending)
+            {
+                response.Success = false;
+                response.Message = "Already processed";
+                return response;
+            }
+
+            var slot = await _unitOfWork.GetRepository<ParkingSlot>()
+                .GetByIdAsync(record.SlotId);
+
+            if (slot == null || slot.IsOccupied)
+            {
+                response.Success = false;
+                response.Message = "Slot not available";
+                return response;
+            }
+
+            record.Status = ParkingStatus.Confirmed;
+            slot.IsOccupied = true;
+
+            _unitOfWork.GetRepository<ParkingRecord>().Update(record);
+            _unitOfWork.GetRepository<ParkingSlot>().Update(slot);
+
+            await _unitOfWork.SaveAsync();
+
+            response.Success = true;
+            response.Message = "Parking approved";
+
+            return response;
+        }
+
+        public async Task<ServiceResponse<string>> RejectParking(int id)
+        {
+            var response = new ServiceResponse<string>();
+
+            var record = await _unitOfWork.GetRepository<ParkingRecord>()
+                .GetByIdAsync(id);
+
+            if (record == null)
+            {
+                response.Success = false;
+                response.Message = "Record not found";
+                return response;
+            }
+
+            if (record.Status != ParkingStatus.Pending)
+            {
+                response.Success = false;
+                response.Message = "Already processed";
+                return response;
+            }
+
+            record.Status = ParkingStatus.Rejected; // or Rejected (better if enum updated)
+
+            _unitOfWork.GetRepository<ParkingRecord>().Update(record);
+            await _unitOfWork.SaveAsync();
+
+            response.Success = true;
+            response.Message = "Parking rejected";
+
             return response;
         }
     }

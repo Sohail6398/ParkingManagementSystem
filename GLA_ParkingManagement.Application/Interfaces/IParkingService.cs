@@ -12,7 +12,7 @@ namespace GLA_ParkingManagement.Application.Interfaces
         // Customer
         Task<List<ParkingSlotDTO>> GetAvailableSlots(int vehicleTypeId);
         Task<ServiceResponse<string>> BookParking(BookParkingRequest request, string userId);
-        Task<List<ParkingHistoryDTO>> GetUserParkingHistory(string userId);
+        Task<ServiceResponse<List<ParkingHistoryDTO>>> GetUserParkingHistory(string userId);
 
         // Admin
         Task<ServiceResponse<string>> ConfirmParking(int recordId);
@@ -30,5 +30,7 @@ namespace GLA_ParkingManagement.Application.Interfaces
         Task<ServiceResponse<string>> CreateSlot(CreateParkingSlotDTO model);
         Task<ServiceResponse<string>> UpdateSlot(CreateParkingSlotDTO model);
         Task<ServiceResponse<string>> DeleteSlot(int id);
+        Task<ServiceResponse<string>> RejectParking(int id);
+        Task<ServiceResponse<string>> ApproveParking(int id);
     }
 }
