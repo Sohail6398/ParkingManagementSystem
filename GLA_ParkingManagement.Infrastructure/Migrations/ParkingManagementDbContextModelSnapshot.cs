@@ -108,6 +108,30 @@ namespace GLA_ParkingManagement.Infrastructure.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "5b7e1d9c-3a2f-4c8b-9e6d-1f0a2b3c4d55",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "a7f5f354-8b2a-4c6d-9f3a-abcdef123456",
+                            CreatedAt = new DateTime(2026, 4, 26, 11, 53, 44, 945, DateTimeKind.Utc).AddTicks(5079),
+                            DateOfBirth = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "admin@gmail.com",
+                            EmailConfirmed = true,
+                            FirstName = "Zishan",
+                            Gender = 0,
+                            IsActive = true,
+                            LastName = "Qureshi",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "ADMIN@GMAIL.COM",
+                            NormalizedUserName = "ADMIN6398",
+                            PasswordHash = "Admin@123!",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "d3b07384-d9a1-4c3b-9c2e-123456789abc",
+                            TwoFactorEnabled = false,
+                            UserName = "admin6398"
+                        });
                 });
 
             modelBuilder.Entity("GLA_ParkingManagement.Domain.Entities.ParkingRecord", b =>
@@ -368,6 +392,13 @@ namespace GLA_ParkingManagement.Infrastructure.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "5b7e1d9c-3a2f-4c8b-9e6d-1f0a2b3c4d55",
+                            RoleId = "8f3a2c6e-1b4a-4f9c-9c3e-2a7d5e8b1f01"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>

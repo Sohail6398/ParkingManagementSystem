@@ -1,4 +1,5 @@
-﻿using GLA_ParkingManagement.Application.Interfaces;
+﻿using AutoMapper;
+using GLA_ParkingManagement.Application.Interfaces;
 using GLA_ParkingManagement.Domain.DTOs;
 using GLA_ParkingManagement.Domain.Entities;
 using GLA_ParkingManagement.Domain.Enums;
@@ -9,15 +10,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Reflection.Metadata.BlobBuilder;
 
 namespace GLA_ParkingManagement.Application.Services
 {
     public class ParkingService : IParkingService
     {
         private readonly IUnitOfWork _unitOfWork;
-        public ParkingService(IUnitOfWork unitOfWork)
+        private readonly IMapper _mapper;
+        public ParkingService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
         /// <summary>
         /// Method to book the parking according avalable slots.
@@ -237,7 +241,33 @@ namespace GLA_ParkingManagement.Application.Services
                 HourlyRate = x.HourlyRate
             }).ToList();
         }
+        public async Task<VehicleTypeDTO> GetVehicleTypeById(int id)
+        {
+            var vehicleType = await _unitOfWork.GetRepository<VehicleType>().GetByIdAsync(id);
+            return _mapper.Map<VehicleTypeDTO>(vehicleType);
+        }
+        public async Task<ServiceResponse<string>> UpdateVehicleTypeBy(CreateVehicleTypeDTO request)
+        {
+            var response = new ServiceResponse<string>();
+            var vehicleRepo = _unitOfWork.GetRepository<VehicleType>();
+            var vehicleType = await vehicleRepo.GetByIdAsync(request.Id);
+            if(vehicleType == null)
+            {
+                response.StatusCode = 404;
+                response.Success = false;
+                response.Message = "Vehicle type not found.";
+                return response;
+            }
+            vehicleType.Name = request.Name;
+            vehicleType.HourlyRate = request.HourlyRate;
+            vehicleRepo.Update(vehicleType);
+            await _unitOfWork.SaveAsync();
 
+            response.StatusCode = 201;
+            response.Success = true;
+            response.Message = "Vehicle updated sucessfully";
+            return response;
+        }
         public async Task<List<PendingParkingDTO>> GetPendingRequests()
         {
             var records = await _unitOfWork.GetRepository<ParkingRecord>()
@@ -256,6 +286,105 @@ namespace GLA_ParkingManagement.Application.Services
                     EntryTime = r.EntryTime,
                     UserName = r.UserId 
                 }).ToList();
+        }
+
+        public async Task<ServiceResponse<string>> CreateSlot(CreateParkingSlotDTO model)
+        {
+            var response = new ServiceResponse<string>();
+
+            var exists = await _unitOfWork.GetRepository<ParkingSlot>()
+                .AnyAsync(x => x.SlotNumber == model.SlotNumber);
+
+            if (exists)
+            {
+                response.Success = false;
+                response.Message = "Slot already exists";
+                return response;
+            }
+
+            var slot = new ParkingSlot
+            {
+                SlotNumber = model.SlotNumber,
+                VehicleTypeId = model.VehicleTypeId,
+                IsOccupied = false
+            };
+
+            await _unitOfWork.GetRepository<ParkingSlot>().AddAsync(slot);
+            await _unitOfWork.SaveAsync();
+
+            response.Success = true;
+            response.Message = "Slot created successfully";
+            return response;
+        }
+        public async Task<ServiceResponse<string>> UpdateSlot(CreateParkingSlotDTO model)
+        {
+            var response = new ServiceResponse<string>();
+
+            var slot = await _unitOfWork.GetRepository<ParkingSlot>()
+                .GetByIdAsync(model.Id);
+
+            if (slot == null)
+            {
+                response.Success = false;
+                response.Message = "Slot not found";
+                return response;
+            }
+
+            slot.SlotNumber = model.SlotNumber;
+            slot.VehicleTypeId = model.VehicleTypeId;
+
+            _unitOfWork.GetRepository<ParkingSlot>().Update(slot);
+            await _unitOfWork.SaveAsync();
+
+            response.Success = true;
+            response.Message = "Slot updated successfully";
+            return response;
+        }
+        public async Task<ServiceResponse<string>> DeleteSlot(int id)
+        {
+            var response = new ServiceResponse<string>();
+
+            var slot = await _unitOfWork.GetRepository<ParkingSlot>()
+                .GetByIdAsync(id);
+
+            if (slot == null)
+            {
+                response.Success = false;
+                response.Message = "Slot not found";
+                return response;
+            }
+
+            _unitOfWork.GetRepository<ParkingSlot>().Delete(slot);
+            await _unitOfWork.SaveAsync();
+
+            response.Success = true;
+            response.Message = "Slot deleted successfully";
+            return response;
+        }
+        public async Task<ServiceResponse<List<ParkingSlotDTO>>> GetAllSlots()
+        {
+            var response = new ServiceResponse<List<ParkingSlotDTO>>();
+            var slotList = await _unitOfWork.GetRepository<ParkingSlot>().GetAllAsync(include: x => x.Include(s => s.VehicleType));
+            if (slotList.Count() == 0)
+            {
+                response.Success = false;
+                response.Message = "Emplty List";
+                response.StatusCode = 404;
+                return response;
+            }
+            var result = slotList.Select(s => new ParkingSlotDTO
+            {
+                Id = s.Id,
+                SlotNumber = s.SlotNumber,
+                VehicleTypeId = s.VehicleTypeId,
+                VehicleTypeName = s.VehicleType.Name, 
+                IsOccupied = s.IsOccupied
+            }).ToList();
+            response.Success = true;
+            response.Message = string.Empty;
+            response.StatusCode = 200;
+            response.Data = result;
+            return response;
         }
     }
 }

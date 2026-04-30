@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Manage Slots";
+}
+
+<div class="page-inner">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-0">
+        <div class="page-header-custom mb-3" style="margin-bottom:3rem!important;">
+            <span class="bar"></span>
+            <h1 class="page-title"> Manage Slots</h1>
+        </div>
+
+        <button class="btn btn-primary mb-3" onclick="openSlotModal()">
+            <i class="fa fa-plus"></i> Add Slot
+        </button>
+
+    </div>
+
+    <!-- Card -->
+    <div class="card shadow-sm mt-5">
+        <div class="card-body">
+
+            <div class="table-responsive">
+                <table id="slotTable" class="table table-hover table-striped align-middle w-100 ">
+
+                    <thead class="table-primary">
+                        <tr>
+                            <th>Id</th>
+                            <th>Slot Number</th>
+                            <th>Vehicle Type</th>
+                            <th>Status</th>
+                            <th class="text-center">Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody></tbody>
+
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" id="slotModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 id="slotModalTitle">Add Slot</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <form id="slotForm">
+
+                    <input type="hidden" id="slotId" name="Id" />
+
+                    <input type="text" id="slotNumber" name="SlotNumber" class="form-control mb-2" placeholder="Slot Number" />
+
+                    <select id="vehicleTypeId" name="VehicleTypeId" class="form-control">
+                        <!-- load via ajax -->
+                    </select>
+
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-success" onclick="saveSlot()">Save</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script src="~/js/Slot.js"></script>  <!-- External JS -->
+}

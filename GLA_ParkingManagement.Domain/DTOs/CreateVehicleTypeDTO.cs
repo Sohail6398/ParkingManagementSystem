@@ -9,6 +9,7 @@ namespace GLA_ParkingManagement.Domain.DTOs
 {
     public class CreateVehicleTypeDTO
     {
+        public int Id { get; set; }
         [Required(ErrorMessage = "Vehicle type name is required")]
         public string Name { get; set; }
 

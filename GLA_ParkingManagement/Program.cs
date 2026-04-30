@@ -41,6 +41,7 @@ builder.Services.AddIdentity<AppUser,IdentityRole>(options =>
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
+builder.Services.AddScoped<IParkingService, ParkingService>();
 #endregion
 
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J3twhmDj4N4=",
+  "dgSpecHash": "exc1MgGfU78=",
   "success": true,
-  "projectFilePath": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
+  "projectFilePath": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SOHAIL\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\SOHAIL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -19,9 +19,16 @@ namespace GLA_ParkingManagement.Application.Interfaces
         Task<ServiceResponse<string>> CompleteParking(int recordId);
         Task<List<ParkingRecordDTO>> GetAllParkingRecords();
         Task<List<PendingParkingDTO>> GetPendingRequests();
+        Task<ServiceResponse<string>> UpdateVehicleTypeBy(CreateVehicleTypeDTO request);
+        Task<VehicleTypeDTO> GetVehicleTypeById(int id);
 
         // Vehicle Type (Admin)
         Task<ServiceResponse<string>> CreateVehicleType(CreateVehicleTypeDTO request);
         Task<List<VehicleTypeDTO>> GetVehicleTypes();
+
+        Task<ServiceResponse<List<ParkingSlotDTO>>> GetAllSlots();
+        Task<ServiceResponse<string>> CreateSlot(CreateParkingSlotDTO model);
+        Task<ServiceResponse<string>> UpdateSlot(CreateParkingSlotDTO model);
+        Task<ServiceResponse<string>> DeleteSlot(int id);
     }
 }

@@ -1,126 +1,243 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\",
+  "WorkspaceRootPath": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|solutionrelative:gla_parkingmanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.application\\services\\parkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|solutionrelative:gla_parkingmanagement.application\\services\\parkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|solutionrelative:gla_parkingmanagement.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.application\\gla_parkingmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|solutionrelative:gla_parkingmanagement.application\\gla_parkingmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\repository\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\repository\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\repository\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\repository\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\database\\parkingmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\database\\parkingmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\utilities\\commonproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\utilities\\commonproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\gla_parkingmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\gla_parkingmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\enums\\parkingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\enums\\parkingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\entities\\parkingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\entities\\parkingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\applicationuser\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\applicationuser\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\enums\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\enums\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\gla_parkingmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\gla_parkingmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\entities\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\entities\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.domain\\entities\\parkingslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\entities\\parkingslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\entities\\parkingslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\learning\\mldotnettutorials\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\migrations\\20260419083425_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\parkingslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\parkingslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\repository\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\repository\\implementation\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\wwwroot\\js\\slot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\wwwroot\\js\\slot.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\views\\parking\\slots.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\parking\\slots.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\views\\parking\\vehicletypes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\parking\\vehicletypes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\wwwroot\\js\\parkingmanage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\wwwroot\\js\\parkingmanage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.application\\interfaces\\iparkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|solutionrelative:gla_parkingmanagement.application\\interfaces\\iparkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\createparkingslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\createparkingslotdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\vehicletypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\vehicletypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\repository\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\repository\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\views\\admin\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\admin\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\createvehicletypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\createvehicletypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\entities\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\entities\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\pendingparkingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\pendingparkingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\enums\\parkingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\enums\\parkingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\parkingrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\parkingrecorddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\bookparkingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\bookparkingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\parkinghistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\parkinghistorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\entities\\parkingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\entities\\parkingrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\wwwroot\\js\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\wwwroot\\js\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|solutionrelative:gla_parkingmanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\applicationuser\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\applicationuser\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|solutionrelative:gla_parkingmanagement.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\enums\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\enums\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\utilities\\customclaimsprincipalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\utilities\\customclaimsprincipalfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\utilities\\commonproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\utilities\\commonproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\database\\parkingmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\database\\parkingmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\seeder\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\seeder\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260426114932_seedAdminData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:GLA_ParkingManagement.Infrastructure\\Migrations\\20260426114932_seedAdminData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\dtos\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.application\\gla_parkingmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B367B702-397E-4CCD-95EF-6132DD2A1AC1}|GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj|solutionrelative:gla_parkingmanagement.application\\gla_parkingmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\repository\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{17C7ED18-E4EF-4914-A937-BC9A31E55B40}|GLA_ParkingManagement\\GLA_ParkingManagement.csproj|solutionrelative:gla_parkingmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\gla_parkingmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\gla_parkingmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.domain\\gla_parkingmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF8205DF-22CC-495D-BE02-67F19B8C2D3B}|GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj|solutionrelative:gla_parkingmanagement.domain\\gla_parkingmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\migrations\\20260419083425_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\migrations\\20260419083425_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|d:\\sohail_projects\\parkingmanagement\\gla_parkingmanagement\\gla_parkingmanagement.infrastructure\\migrations\\20260426115345_seedadmindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD95D5E-FA2E-4CF5-927E-C0E9AE200538}|GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj|solutionrelative:gla_parkingmanagement.infrastructure\\migrations\\20260426115345_seedadmindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -130,11 +247,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParkingService.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Services\\ParkingService.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Application\\Services\\ParkingService.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Services\\ParkingService.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Application\\Services\\ParkingService.cs",
+              "ViewState": "AgIAAHMBAAAAZ2ZmZmYswIEBAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T06:39:29.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehicleTypes.cshtml",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Parking\\VehicleTypes.cshtml",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Parking\\VehicleTypes.cshtml",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Parking\\VehicleTypes.cshtml",
+              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Parking\\VehicleTypes.cshtml",
+              "ViewState": "AgIAAEcAAABgZmZmZmYkwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T05:27:33.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ParkingManage.js",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\js\\ParkingManage.js",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\wwwroot\\js\\ParkingManage.js",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\js\\ParkingManage.js",
+              "RelativeToolTip": "GLA_ParkingManagement\\wwwroot\\js\\ParkingManage.js",
+              "ViewState": "AgIAAFsAAAAAZGZmZmYEwCQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T06:30:59.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAADcAAAAAMDMzMzMbwEkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T10:37:41.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IParkingService.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Interfaces\\IParkingService.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Application\\Interfaces\\IParkingService.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Interfaces\\IParkingService.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Application\\Interfaces\\IParkingService.cs",
+              "ViewState": "AgIAABQAAADwy8zMzMwywBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T06:39:04.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParkingSlot.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\ParkingSlot.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Entities\\ParkingSlot.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\ParkingSlot.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Entities\\ParkingSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:39:36.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -142,277 +333,302 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParkingSlotDTO.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ParkingSlotDTO.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\ParkingSlotDTO.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ParkingSlotDTO.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\ParkingSlotDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:15:29.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Slots.cshtml",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Parking\\Slots.cshtml",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Parking\\Slots.cshtml",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Parking\\Slots.cshtml",
+              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Parking\\Slots.cshtml",
+              "ViewState": "AgIAADQAAAAANjMzMzMJwE4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T07:38:47.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "GLA_ParkingManagement\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-24T06:35:30.544Z",
+              "Title": "Slot.js",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\js\\Slot.js",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\wwwroot\\js\\Slot.js",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\js\\Slot.js",
+              "RelativeToolTip": "GLA_ParkingManagement\\wwwroot\\js\\Slot.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-30T07:42:25.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABAAAACQy8zMzAwswB4AAABEAAAAAAAAAA==",
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\GenericRepository.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\GenericRepository.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\GenericRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAnwBYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T11:08:06.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ParkingController.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Controllers\\ParkingController.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Controllers\\ParkingController.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Controllers\\ParkingController.cs",
+              "RelativeToolTip": "GLA_ParkingManagement\\Controllers\\ParkingController.cs",
+              "ViewState": "AgIAABwAAADAzszMzMwYwD4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:56:18.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Mapper\\MappingProfile.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAMAAACA//////8TwBQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:40:30.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateParkingSlotDTO.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\CreateParkingSlotDTO.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\CreateParkingSlotDTO.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\CreateParkingSlotDTO.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\CreateParkingSlotDTO.cs",
+              "ViewState": "AgIAAAMAAACg//////8twAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T07:26:15.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AllUsers.cshtml",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Admin\\AllUsers.cshtml",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Admin\\AllUsers.cshtml",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Admin\\AllUsers.cshtml",
+              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Admin\\AllUsers.cshtml",
+              "ViewState": "AgIAABcAAACg//////8jwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-19T15:32:31.868Z",
+              "WhenOpened": "2026-04-29T05:32:16.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "GLA_ParkingManagement\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "VehicleTypeDTO.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\VehicleTypeDTO.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\VehicleTypeDTO.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\VehicleTypeDTO.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\VehicleTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T15:32:06.202Z",
+              "WhenOpened": "2026-04-29T07:21:07.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\LoginRequest.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\LoginRequest.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAATAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\UnitOfWork.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\UnitOfWork.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\UnitOfWork.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T15:19:17.506Z",
+              "WhenOpened": "2026-04-19T11:19:50.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\LoginResponse.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\LoginResponse.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "VehicleType.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\VehicleType.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Entities\\VehicleType.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\VehicleType.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Entities\\VehicleType.cs",
+              "ViewState": "AgIAAAIAAABkMjMzMzMrwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T15:15:53.771Z"
+              "WhenOpened": "2026-04-19T07:40:08.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ServiceResponse.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ServiceResponse.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\ServiceResponse.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ServiceResponse.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\ServiceResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "CreateVehicleTypeDTO.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\CreateVehicleTypeDTO.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\CreateVehicleTypeDTO.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\CreateVehicleTypeDTO.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\CreateVehicleTypeDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T15:13:33.083Z"
+              "WhenOpened": "2026-04-29T07:20:31.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Program.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Program.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Program.cs",
+              "RelativeToolTip": "GLA_ParkingManagement\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwCsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T08:12:33.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T11:04:36.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ParkingStatus.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Enums\\ParkingStatus.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Enums\\ParkingStatus.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Enums\\ParkingStatus.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Enums\\ParkingStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:41:46.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PendingParkingDTO.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\PendingParkingDTO.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\PendingParkingDTO.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\PendingParkingDTO.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\PendingParkingDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:49:58.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ParkingRecordDTO.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ParkingRecordDTO.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\ParkingRecordDTO.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ParkingRecordDTO.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\ParkingRecordDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywBoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:19:44.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BookParkingRequest.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\BookParkingRequest.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\BookParkingRequest.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\BookParkingRequest.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\BookParkingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:14:49.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ParkingHistoryDTO.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ParkingHistoryDTO.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\ParkingHistoryDTO.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ParkingHistoryDTO.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\ParkingHistoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T07:15:57.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Services\\AuthService.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "GLA_ParkingManagement.Application\\Services\\AuthService.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Services\\AuthService.cs",
               "RelativeToolTip": "GLA_ParkingManagement.Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAABMAAAAALjMzMzPjvygAAAB1AAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAmZmZmZkZwK8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-19T15:12:52.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "Users.js",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\js\\Users.js",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\wwwroot\\js\\Users.js",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\js\\Users.js",
+              "RelativeToolTip": "GLA_ParkingManagement\\wwwroot\\js\\Users.js",
+              "ViewState": "AgIAADwAAACA//////8jwEkAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-29T05:52:40.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\UserDTO.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T15:12:13.3Z"
+              "WhenOpened": "2026-04-29T05:08:21.272Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GLA_ParkingManagement.Application.csproj",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
-              "RelativeToolTip": "GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-19T15:10:35.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "ParkingRecord.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\ParkingRecord.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Entities\\ParkingRecord.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\ParkingRecord.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Entities\\ParkingRecord.cs",
+              "ViewState": "AgIAABIAAAAgyMzMzMwmwB4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T11:19:05.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\GenericRepository.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\GenericRepository.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\GenericRepository.cs",
-              "ViewState": "AgIAAA0AAAAA/P///z8lwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T11:08:06.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AgIAAAkAAACA//////8wwCIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T11:04:36.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "20260419083425_initialMigration.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083425_initialMigration.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083425_initialMigration.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083425_initialMigration.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083425_initialMigration.cs",
-              "ViewState": "AgIAAAwAAAAAmZmZmZkVwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T08:34:25.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20260419083106_initialMigration.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T08:31:06.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\Program.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Program.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\Program.cs",
-              "RelativeToolTip": "GLA_ParkingManagement\\Program.cs",
-              "ViewState": "AgIAAAcAAACgMjMzMzMbwBwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T08:12:33.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\UnitOfWork.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\UnitOfWork.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Repository\\Implementation\\UnitOfWork.cs",
-              "ViewState": "AgIAABUAAADAkJmZmRkVwBUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T11:19:50.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20260419082427_initialMigration.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T08:24:28.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20260419082222_initialMigration.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T08:22:22.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement\\appsettings.json",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement\\appsettings.json",
-              "RelativeToolTip": "GLA_ParkingManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-19T08:12:06.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ParkingManagementDbContext.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Database\\ParkingManagementDbContext.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Database\\ParkingManagementDbContext.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Database\\ParkingManagementDbContext.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Database\\ParkingManagementDbContext.cs",
-              "ViewState": "AgIAAD8AAACAYmZmZmYkwEoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T07:47:18.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CommonProperties.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Utilities\\CommonProperties.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Utilities\\CommonProperties.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Utilities\\CommonProperties.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Utilities\\CommonProperties.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T07:55:37.785Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "GenderType.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Enums\\GenderType.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Enums\\GenderType.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Enums\\GenderType.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Enums\\GenderType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T07:46:00.47Z"
+              "WhenOpened": "2026-04-19T07:38:51.495Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\Payment.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Entities\\Payment.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\Payment.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\Payment.cs",
               "RelativeToolTip": "GLA_ParkingManagement.Domain\\Entities\\Payment.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -420,47 +636,344 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ParkingStatus.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Enums\\ParkingStatus.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Enums\\ParkingStatus.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Enums\\ParkingStatus.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Enums\\ParkingStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 33,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Application\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAUAAAAwMzMzMzMrwA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T07:41:46.168Z"
+              "WhenOpened": "2026-04-19T15:12:13.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ParkingRecord.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\ParkingRecord.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Entities\\ParkingRecord.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\ParkingRecord.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Entities\\ParkingRecord.cs",
-              "ViewState": "AgIAAAUAAADQMTMzMzMnwBsAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\LoginResponse.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\LoginResponse.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T07:38:51.495Z"
+              "WhenOpened": "2026-04-19T15:15:53.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "GLA_ParkingManagement\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQvQ4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T09:39:01.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
               "Title": "AppUser.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\ApplicationUser\\AppUser.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\ApplicationUser\\AppUser.cs",
               "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\ApplicationUser\\AppUser.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\ApplicationUser\\AppUser.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\ApplicationUser\\AppUser.cs",
               "RelativeToolTip": "GLA_ParkingManagement.Domain\\ApplicationUser\\AppUser.cs",
-              "ViewState": "AgIAAAUAAAAAMjMzMzMrwBAAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAUmZmZmYGwBcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-19T07:10:46.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 32,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T10:35:25.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\LoginRequest.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAcAAADAZWZmZmYgwBAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T15:19:17.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAB8vVkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T10:57:17.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "GenderType.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Enums\\GenderType.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Enums\\GenderType.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Enums\\GenderType.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Enums\\GenderType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:46:00.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "GLA_ParkingManagement\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAC8AAADQMTMzMzMuwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T15:32:06.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RegisterUser.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\RegisterUser.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\RegisterUser.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\RegisterUser.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\RegisterUser.cs",
+              "ViewState": "AgIAABsAAADg//////8xwCwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:40:29.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACgAAAAATWZmZiYgwDkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T06:51:31.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "GLA_ParkingManagement\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAEYAAACAZGZmZmYqwCsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T15:32:31.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CustomClaimsPrincipalFactory.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Utilities\\CustomClaimsPrincipalFactory.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Utilities\\CustomClaimsPrincipalFactory.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Utilities\\CustomClaimsPrincipalFactory.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Utilities\\CustomClaimsPrincipalFactory.cs",
+              "ViewState": "AgIAABMAAAAAmJmZmZkBwBkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T18:30:50.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ParkingManagementDbContext.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Database\\ParkingManagementDbContext.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Database\\ParkingManagementDbContext.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Database\\ParkingManagementDbContext.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Database\\ParkingManagementDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:47:18.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "GLA_ParkingManagement\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACAAAAAAoZmZmVkqwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-24T06:35:30.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CommonProperties.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Utilities\\CommonProperties.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Utilities\\CommonProperties.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Utilities\\CommonProperties.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Utilities\\CommonProperties.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewBAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T07:55:37.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20260426114932_seedAdminData.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260426114932_seedAdminData.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260426114932_seedAdminData.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260426114932_seedAdminData.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260426114932_seedAdminData.cs",
+              "ViewState": "AgIAAAoAAAAgyczMzAwjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T11:49:32.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Seeder\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Seeder\\DbSeeder.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Seeder\\DbSeeder.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Seeder\\DbSeeder.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAABUPRoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T11:56:36.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20260426115345_seedAdminData.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260426115345_seedAdminData.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260426115345_seedAdminData.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260426115345_seedAdminData.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260426115345_seedAdminData.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBAAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T11:53:45.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "login.css",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\wwwroot\\css\\login.css",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "GLA_ParkingManagement\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAB0AAACAy8zMzMwcwD4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-26T11:16:42.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ServiceResponse.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ServiceResponse.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\DTOs\\ServiceResponse.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\DTOs\\ServiceResponse.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Domain\\DTOs\\ServiceResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T15:13:33.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "GLA_ParkingManagement.Application.csproj",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
+              "RelativeToolTip": "GLA_ParkingManagement.Application\\GLA_ParkingManagement.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-19T15:10:35.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Repository\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T11:19:05.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20260419083425_initialMigration.cs",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083425_initialMigration.cs",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083425_initialMigration.cs",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083425_initialMigration.cs",
+              "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083425_initialMigration.cs",
+              "ViewState": "AgIAAAwAAAAAmZmZmZkVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T08:34:25.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20260419083106_initialMigration.cs",
+              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs",
+              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs",
+              "RelativeToolTip": "..\\..\\..\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419083106_initialMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T08:31:06.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "20260419082427_initialMigration.cs",
+              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs",
+              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs",
+              "RelativeToolTip": "..\\..\\..\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082427_initialMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T08:24:28.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20260419082222_initialMigration.cs",
+              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs",
+              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs",
+              "RelativeToolTip": "..\\..\\..\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\Migrations\\20260419082222_initialMigration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T08:22:22.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "GLA_ParkingManagement\\appsettings.json",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement\\appsettings.json",
+              "RelativeToolTip": "GLA_ParkingManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-19T08:12:06.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
               "Title": "GLA_ParkingManagement.Infrastructure.csproj",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj",
               "RelativeDocumentMoniker": "GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj",
               "RelativeToolTip": "GLA_ParkingManagement.Infrastructure\\GLA_ParkingManagement.Infrastructure.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -468,35 +981,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "VehicleType.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\VehicleType.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Entities\\VehicleType.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\VehicleType.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Entities\\VehicleType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T07:40:08.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "ParkingSlot.cs",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\ParkingSlot.cs",
-              "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\Entities\\ParkingSlot.cs",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\Entities\\ParkingSlot.cs",
-              "RelativeToolTip": "GLA_ParkingManagement.Domain\\Entities\\ParkingSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T07:39:36.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 57,
               "Title": "GLA_ParkingManagement.Domain.csproj",
-              "DocumentMoniker": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj",
+              "DocumentMoniker": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj",
               "RelativeDocumentMoniker": "GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj",
-              "ToolTip": "D:\\Learning\\MLDotNetTutorials\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj",
+              "ToolTip": "D:\\Sohail_Projects\\ParkingManagement\\GLA_ParkingManagement\\GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj",
               "RelativeToolTip": "GLA_ParkingManagement.Domain\\GLA_ParkingManagement.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
