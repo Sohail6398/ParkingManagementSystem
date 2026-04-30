@@ -13,7 +13,7 @@ namespace GLA_ParkingManagement.Infrastructure.Repository.Interfaces
         /// Get all the records.
         /// </summary>
         /// <returns></returns>
-        Task<IEnumerable<T>> GetAllAsync();
+        Task<IEnumerable<T>> GetAllAsync(Func<IQueryable<T>, IQueryable<T>>? include = null);
 
         /// <summary>
         /// Get the record using Id.
@@ -47,5 +47,11 @@ namespace GLA_ParkingManagement.Infrastructure.Repository.Interfaces
         /// <param name="predicate"></param>
         /// <returns></returns>
         Task<IEnumerable<T>> FindAsync(Expression<Func<T, bool>> predicate);
+        /// <summary>
+        /// check the condition and return bool.
+        /// </summary>
+        /// <param name="predicate"></param>
+        /// <returns></returns>
+        Task<bool> AnyAsync(Expression<Func<T, bool>> predicate);
     }
 }

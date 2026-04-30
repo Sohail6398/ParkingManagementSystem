@@ -14,6 +14,7 @@ namespace GLA_ParkingManagement.Infrastructure.Mapper
         public MappingProfile()
         {
             CreateMap<AppUser, RegisterUser>().ReverseMap();
+            CreateMap<AppUser, UserDTO>().ReverseMap();
         }
     }
 }

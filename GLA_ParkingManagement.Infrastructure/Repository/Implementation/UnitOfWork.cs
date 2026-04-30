@@ -9,10 +9,15 @@ using System.Threading.Tasks;
 
 namespace GLA_ParkingManagement.Infrastructure.Repository.Implementation
 {
-    public class UnitOfWork: IUnitOfWork
+    public class UnitOfWork: IUnitOfWork, IDisposable
     {
         private readonly ParkingManagementDbContext _context;
         private Hashtable _repositories;
+        private bool _disposed = false;
+        public UnitOfWork(ParkingManagementDbContext context)
+        {
+            _context = context;
+        }
         public IGenericRepository<T> GetRepository<T>() where T : class
         {
             if (_repositories == null)
@@ -29,13 +34,28 @@ namespace GLA_ParkingManagement.Infrastructure.Repository.Implementation
         }
         public void Dispose()
         {
-            _context.Dispose();
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
-
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!_disposed)
+            {
+                if (disposing)
+                {
+                    if (_context != null)   // ✅ FIX
+                    {
+                        _context.Dispose();
+                    }
+                }
+                _disposed = true;
+            }
+        }
         public async Task<int> SaveAsync()
         {
             var data = await _context.SaveChangesAsync();
             return data;
         }
+
     }
 }

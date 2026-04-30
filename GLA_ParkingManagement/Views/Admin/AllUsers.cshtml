@@ -1,0 +1,48 @@
+﻿@{
+	Layout = "_AdminLayout";
+	ViewData["Title"] = "Users";
+}
+
+<div class="page-inner">
+
+    <!-- Header -->
+    <div class="page-header-custom">
+        <span class="bar"></span>
+        <h1 class="page-title">All Users</h1>
+    </div>
+
+    <!-- Card -->
+    <div class="card shadow-sm mt-5">
+        <div class="card-body">
+
+            <div class="table-responsive">
+                <table id="usersTable" class="table table-hover table-striped align-middle w-100 ">
+
+                    <thead class="table-primary">
+                        <tr>
+                            <th style="display:none;">UserId</th> <!-- Hidden -->
+                            <th>Full Name</th>
+                            <th>Gender</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Address</th>
+                            <th>Created At</th>
+                            <th>Status</th>
+                            <th>Role</th>
+                            <th class="text-center">Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody></tbody>
+
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="~/js/users.js"></script>  <!-- External JS -->
+}

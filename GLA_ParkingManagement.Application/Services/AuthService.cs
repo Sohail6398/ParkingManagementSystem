@@ -3,6 +3,7 @@ using GLA_ParkingManagement.Application.Interfaces;
 using GLA_ParkingManagement.Domain.ApplicationUser;
 using GLA_ParkingManagement.Domain.DTOs;
 using GLA_ParkingManagement.Infrastructure.Database;
+using GLA_ParkingManagement.Infrastructure.Repository.Interfaces;
 using GLA_ParkingManagement.Infrastructure.Utilities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -22,11 +23,13 @@ namespace GLA_ParkingManagement.Application.Services
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly ParkingManagementDbContext _context;
         private readonly IMapper _mapper;
+        private readonly IUnitOfWork _unitOfWork;
         public AuthService(UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager,
             IMapper mapper,
             RoleManager<IdentityRole> roleManager,
-            ParkingManagementDbContext context
+            ParkingManagementDbContext context,
+            IUnitOfWork unitOfWork
             )
         {
             this._userManager = userManager;
@@ -34,6 +37,7 @@ namespace GLA_ParkingManagement.Application.Services
             this._mapper = mapper;
             this._roleManager = roleManager;   
             this._context = context;
+            this._unitOfWork = unitOfWork;
         }
 
         public async Task<ServiceResponse<LoginResponse>> LoginAsync(LoginRequest request)
@@ -151,6 +155,27 @@ namespace GLA_ParkingManagement.Application.Services
                 response.Message = "Something went wrong.";
                 return response;
             }
+        }
+
+        public async Task<ServiceResponse<List<UserDTO>>> GetAllUsers()
+        {
+            var response = new ServiceResponse<List<UserDTO>>();
+
+            var users = await _userManager.GetUsersInRoleAsync(CommonProperties.CustomerUser);
+
+            if (users == null || !users.Any())
+            {
+                response.Success = false;
+                response.Message = "No customers found";
+                response.StatusCode = 404;
+                return response;
+            }
+
+            response.Success = true;
+            response.StatusCode = 200;
+            response.Data = _mapper.Map<List<UserDTO>>(users);
+
+            return response;
         }
     }
 }

@@ -8,7 +8,8 @@ namespace GLA_ParkingManagement.Domain.Enums
 {
     public enum ParkingStatus
     {
-        Active,
-        Completed
+        Pending = 1,
+        Confirmed=2,
+        Completed = 3,
     }
 }

@@ -1,50 +1,117 @@
-﻿<!DOCTYPE html>
+﻿@using GLA_ParkingManagement.Infrastructure.Utilities
+@{
+    var userName = User.FindFirst(CommonProperties.FullName)?.Value;
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <title>@ViewData["Title"] - PMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - GLA_ParkingManagement</title>
-    <script type="importmap"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/GLA_ParkingManagement.styles.css" asp-append-version="true" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/Theme/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Theme/assets/css/plugins.min.css" />
+    <link rel="stylesheet" href="~/Theme/assets/css/kaiadmin.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GLA_ParkingManagement</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <a class="navbar-brand fw-bold" href="/Home/Index">
+                🚗 PMS
+            </a>
+
+            <!-- Toggle (Mobile) -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <!-- Left Menu -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Home/Index">
+                            <i class="fas fa-home me-1"></i> Dashboard
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Parking/AvailableSlots">
+                            <i class="fas fa-car me-1"></i> Available Slots
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Parking/Book">
+                            <i class="fas fa-parking me-1"></i> Book Parking
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Parking/History">
+                            <i class="fas fa-history me-1"></i> Booking History
+                        </a>
+                    </li>
+
+                </ul>
+
+                <!-- Right Menu -->
+                <ul class="navbar-nav ms-auto align-items-center">
+
+                    <!-- Notification -->
+                    <li class="nav-item me-3">
+                        <a class="nav-link position-relative">
+                            <i class="fa fa-bell"></i>
+                        </a>
+                    </li>
+
+                    <!-- Profile Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center"
+                           href="#"
+                           data-bs-toggle="dropdown"
+                           aria-expanded="false">
+
+                            <img src="~/Theme/assets/img/profile.jpg"
+                                 class="rounded-circle me-2"
+                                 width="35"
+                                 height="35" />
+
+                            <span class="fw-bold">@userName</span>
+                        </a>
+
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="/Account/Logout">Logout</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        </div>
+    </nav>
+
+    <!-- PAGE CONTENT -->
+    <div class="container mt-4">
+        @RenderBody()
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2026 - GLA_ParkingManagement - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <!-- JS -->
+    <script src="~/Theme/assets/js/core/jquery-3.7.1.min.js"></script>
+    <script src="~/Theme/assets/js/core/bootstrap.bundle.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+
 </body>
 </html>
